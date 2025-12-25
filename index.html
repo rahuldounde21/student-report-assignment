@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Speaking Report</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <div class="main-box">
+    <h1>Speaking Assessment Report</h1>
+
+    <h3>Overall Score: <span id="overall"></span> / 9</h3>
+
+    <section class="scores">
+      <p>Pronunciation: <span id="p_score"></span></p>
+      <p>Fluency: <span id="f_score"></span></p>
+      <p>Vocabulary: <span id="v_score"></span></p>
+      <p>Grammar: <span id="g_score"></span></p>
+    </section>
+
+    <canvas id="chartCanvas"></canvas>
+
+    <h3>Feedback</h3>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

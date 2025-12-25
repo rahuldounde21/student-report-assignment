@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  background: #eaeaea;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-box {
+  background: #fff;
+  padding: 20px;
+  width: 450px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.scores p {
+  margin: 6px 0;
+}
